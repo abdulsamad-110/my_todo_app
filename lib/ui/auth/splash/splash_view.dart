@@ -7,16 +7,16 @@ class SplashView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Controller initialize karo
+    // Controller initialize
     final controller = Get.put(SplashController());
 
     return Scaffold(
       backgroundColor: Color(0xffcc070b),
       body: const Center(
         child: Icon(
-          Icons.checklist, // ✅ Todo ka icon
-          size: 100, // Icon ka size
-          color: Colors.white, // Icon ka color
+          Icons.task_alt,
+          size: 100, // Icon size
+          color: Colors.white, // Icon color
         ),
       ),
     );
